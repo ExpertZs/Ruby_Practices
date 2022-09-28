@@ -66,3 +66,14 @@ end                                               # End of for loop
 friends.each do |element|                         # Initializing a for each loop
   puts element                                    # Print element
 end                                               # End of for each loop
+
+# Exponent Method
+def pow(base_num, pow_num)            # Initializing a method with arguments
+  result = 1                          # Initializing a variable
+  pow_num.times do |index|            # Initializing a loop
+    result = result * base_num        # Exponent
+  end                                 # end of loop
+  return result                       # return result
+end                                   # End of method
+
+puts pow(2,3)                         # Printing a method by passing parameter
