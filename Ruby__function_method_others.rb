@@ -77,3 +77,12 @@ puts friends                    # To print the the whole Array
 puts friends.include? "rakib"   # To check the element "rakib" at the Array
 puts friends.reverse()          # To print the array in reverse order
 puts friends.sort()             # To print the array in sorted order
+
+# Creating Hash
+hash ={
+   1230 => "Uttara",
+    1229 => "Nikunja",
+   1212 =>"Mirpur"
+  }
+puts hash                  # To print the all element of hash
+ puts hash[1212]           # To print the value of 1212
