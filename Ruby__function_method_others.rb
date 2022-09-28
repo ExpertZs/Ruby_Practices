@@ -20,3 +20,14 @@ puts age
 puts cgpa
 puts ismale
 puts flaws
+
+# Play with Strings
+strings = "   Hey Ruby is preatty easy to learn and I am really enjoying learning ruby  "
+puts strings.upcase()          # To print convert uppercase strings
+puts strings.downcase()        # To print or convert lower case strings
+puts strings.strip()           # To trim unnecessary space before and after
+puts strings.length()          # To know length of string
+puts strings.include? "ruby"   # To check weather the string contain a word/character or not
+puts strings[10]               # To access individual character in the Strings
+puts strings[0,11]             # To acccess a group of character in the Strings
+puts strings.index("am")       # To find the index value of a character or word
