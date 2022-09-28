@@ -8,4 +8,15 @@ puts "私は二十六さいです。"  #3printing with new line
 charecter_name  = "Zahidul islam"
 character_age  =  "26"
 puts ("Hey this is : " + charecter_name)
-puts  ("I am " + character_age + "years old")
+puts  ("I am " + character_age + " years old")
+# Data types in ruby
+name = "zahidul"   # This is Strings
+age = 26   # This is Numbers integer
+cgpa = 3.88 # This is Numbers float
+ismale = true   # This is Numbers Booleans
+flaws = nil     # This is no value
+puts name
+puts age
+puts cgpa
+puts ismale
+puts flaws
