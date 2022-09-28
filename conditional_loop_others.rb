@@ -55,3 +55,9 @@ while index <=5            # Initializing while loop
   puts index               # Print value
   index+=1                 # Incrementing the value
 end                        # End of While loop
+
+# For loop
+friends = ["Minhaz", "Shakib", "Saad", "Rafidul","Mursalin", "Murad", "Shihab"]  # Initializing a variable
+for element in friends                            # Initializing a for loop
+  puts element                                    # Print element
+end                                               # End of for loop
