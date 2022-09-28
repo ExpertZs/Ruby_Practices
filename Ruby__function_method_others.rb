@@ -31,3 +31,28 @@ puts strings.include? "ruby"   # To check weather the string contain a word/char
 puts strings[10]               # To access individual character in the Strings
 puts strings[0,11]             # To acccess a group of character in the Strings
 puts strings.index("am")       # To find the index value of a character or word
+
+
+# Nubmers and Methemetical Operation
+num1 =30
+num2 = 4
+num3 = 3.5
+num4 = -5
+puts num1             # To print the value of variable num1
+puts num2             # To print the value of variable num2
+puts num3             # To print the value of variable num3
+puts num4             # To print the value of variable num4
+puts num1 + num2      # To print the addition of num1 and num2
+puts num1 - num2      # To print the subtraction of num1 and num2
+puts num1 * num2      # To print the multiplication of num1 and num2
+puts num1/ num2       # To print the division of num1 and num2
+puts num1 % num2      # To print the riminder of num1 and num2
+puts num1 ** num2     # To print the power operation result of num1 and num2
+puts num3.abs()       # To print the absulate value of num3
+puts num4.abs()       # To print the absulate value of num4
+puts num3.to_s        # To print convert result to strings
+puts num3.floor()     # To print the floor value of num3
+puts num3.ceil()      # To print the ceil value of num3
+puts num3.round()     # To print the round value of num3
+puts Math.sqrt (1)    # To print math square function
+puts Math.log(3)      # To print log function
