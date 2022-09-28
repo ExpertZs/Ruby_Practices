@@ -36,4 +36,33 @@ car1 = Cars.new("Tata nano", "Tata motors", "India", 2000000)                   
 
 car2 = Cars.new("Toyota Corola", "Toyota Corporation","Japan", 5000000)        # Creating object
 puts car1.made_in       # Printing object value
-puts car1.has_luxary
+puts car1.has_luxary    # Printing object value
+
+# Implementation of Inhertance
+class Chef                                # Creating Class
+  def  make_chicken                       # Creating Method
+    puts "The chef makes chiken"          # Printing
+  end
+  def  make_salad                         # Creating Method
+    puts "The chef makes salad"           # Printing
+  end
+  def  make_special_dish                  # Creating Method
+    puts "The chef makes bbq ribs"        # Printing
+  end
+end                                       #End of Class
+
+class JapaneseChef < Chef                 # Inherting Class
+  def make_special_dish                   # Method Overriding
+    puts "The chef makes shushi"          # Printing
+  end
+
+  def make_chikin                         # Creating Method
+    puts "The chef makes chikin nanban"   # Printing
+  end
+end                                       # End of Class
+
+chef  = Chef.new()                         # Creating Object
+chef.make_special_dish                     #Calling Method
+japanesechef =JapaneseChef.new()           # Creating Object
+japanesechef.make_special_dish             # Calling Method
+japanesechef.make_chikin                   # Calling Method
