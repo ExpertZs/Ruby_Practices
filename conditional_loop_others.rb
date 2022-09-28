@@ -23,4 +23,28 @@
   end                                       # End of Method
   puts max(5,20,6)                          # Print max by passing parameter value
 
-  
+# Use Case Expression
+ def get_day_name(day)                # Initializing a method with arguments
+   day_name =""                       # Initializing a variable
+   case day                           # Initializing a case Expression
+   when day="mon"
+     day_name="Monday"
+   when day="tue"
+     day_name="Tuesday"
+   when day="wed"
+     day_name="Wednesday"
+   when day="thu"
+     day_name="Thursday"
+   when day="fri"
+     day_name="Friday"
+   when day="sat"
+     day_name="Saturday"
+   when day="sun"
+     day_name="Sunday"
+   else
+     day_name="Invalid"               # Returning wrong day
+   end
+   return day_name                    # Returning Day name
+ end                                  # End of Method
+
+ puts get_day_name("sat")             # Calling method by passing parameter
