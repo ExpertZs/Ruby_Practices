@@ -60,5 +60,5 @@ puts Math.log(3)      # To print log function
 
 # To take input data from user
 puts "Please enter your name:"  # To print the dialog to enter input
-myname= gets.chomp()            # To store input data in a variable  
+myname= gets.chomp()            # To store input data in a variable
 puts myname                     # To print stored data in a variable
