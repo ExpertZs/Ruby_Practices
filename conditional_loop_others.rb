@@ -77,3 +77,10 @@ def pow(base_num, pow_num)            # Initializing a method with arguments
 end                                   # End of method
 
 puts pow(2,3)                         # Printing a method by passing parameter
+
+# Reading File
+File.open("file.text", "r") do |file|
+  for line in file.readlines()
+    puts line
+  end
+end
