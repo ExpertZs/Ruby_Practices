@@ -62,3 +62,18 @@ puts Math.log(3)      # To print log function
 puts "Please enter your name:"  # To print the dialog to enter input
 myname= gets.chomp()            # To store input data in a variable
 puts myname                     # To print stored data in a variable
+
+
+# Array
+number = Array[1,5,9,-6]        # To create new array with element
+puts number                     # To print the the whole Array
+puts number[3]                  # To print the element at index 3
+
+friends = Array.new             # To new array without element
+friends[0] = "saidul"           # To insert element at the index of 0
+friends[1] = "shakib"           # To insert element at the index of 1
+friends[2] = "murad"            # To insert element at the index of 2
+puts friends                    # To print the the whole Array
+puts friends.include? "rakib"   # To check the element "rakib" at the Array
+puts friends.reverse()          # To print the array in reverse order
+puts friends.sort()             # To print the array in sorted order
