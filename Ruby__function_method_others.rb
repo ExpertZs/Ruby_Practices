@@ -100,3 +100,10 @@ def person(name, age)                                               # Initializi
 end
 
 person("Minhaj san", 26)                                            # To call the method by passing parameter values
+
+# Using Return Statement
+def cube(num)
+  return num * num * num              # To call the method by passing parameter values
+end
+
+puts cube(2)                          # To print the method by passing parameter values
