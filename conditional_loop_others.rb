@@ -48,3 +48,10 @@
  end                                  # End of Method
 
  puts get_day_name("sat")             # Calling method by passing parameter
+
+# While loop
+index =1                   # Initializing a variable
+while index <=5            # Initializing while loop
+  puts index               # Print value
+  index+=1                 # Incrementing the value
+end                        # End of While loop
