@@ -56,3 +56,9 @@ puts num3.ceil()      # To print the ceil value of num3
 puts num3.round()     # To print the round value of num3
 puts Math.sqrt (1)    # To print math square function
 puts Math.log(3)      # To print log function
+
+
+# To take input data from user
+puts "Please enter your name:"  # To print the dialog to enter input
+myname= gets.chomp()            # To store input data in a variable  
+puts myname                     # To print stored data in a variable
