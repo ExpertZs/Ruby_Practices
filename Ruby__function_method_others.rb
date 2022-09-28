@@ -85,4 +85,18 @@ hash ={
    1212 =>"Mirpur"
   }
 puts hash                  # To print the all element of hash
- puts hash[1212]           # To print the value of 1212
+puts hash[1212]            # To print the value of 1212
+
+# Method Initializing
+def printing
+  puts "Happy to learn ruby"    # To print the string
+end
+
+printing                        # To call the Method
+
+# Method Initializing with parameter
+def person(name, age)                                               # Initializing the method with two argument
+  puts ("You are " + name + "," + "Your age is " + age.to_s)        # To print the Strings with the values of argument
+end
+
+person("Minhaj san", 26)                                            # To call the method by passing parameter values
