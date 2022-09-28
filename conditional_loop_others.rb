@@ -61,3 +61,8 @@ friends = ["Minhaz", "Shakib", "Saad", "Rafidul","Mursalin", "Murad", "Shihab"] 
 for element in friends                            # Initializing a for loop
   puts element                                    # Print element
 end                                               # End of for loop
+
+# For each loop
+friends.each do |element|                         # Initializing a for each loop
+  puts element                                    # Print element
+end                                               # End of for each loop
