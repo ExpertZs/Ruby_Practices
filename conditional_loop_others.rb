@@ -84,3 +84,8 @@ File.open("file.text", "r") do |file|
     puts line
   end
 end
+
+# Writing in a File
+File.open("file.text", "a") do |file|
+  file.write("\n Shihab, Shuvon")
+end
